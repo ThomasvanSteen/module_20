@@ -1,41 +1,62 @@
 ol {
     list-style-type: none; /* Remove the default numbering */
-}
-
-li {
-    border-bottom: 1px solid black; 
+    padding: 0; /* Remove default padding */
+  }
+  
+  li {
+    border-bottom: 1px solid black;
     padding: 5px;
     width: auto; /* Set a fixed width for the list items */
     height: 50px; /* Set a fixed height for the list items */
     text-align: center; /* Center the content horizontally */
     font-size: 40px;
-}
-
-body {
+  }
+  
+  body {
     background-color: antiquewhite;
-
-}
-
-.points {
-
-}
-.score {
+  }
+  
+  .points {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 40px;
     width: 100%;
     max-width: 200px;
-}
-img {
+  }
+  
+  img {
     width: auto;
     height: 50px;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 50px;
-}
-
-
-.container2 {
+  }
+  
+  .container {
     display: flex;
-}
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 10ch;
+  }
+  
+  .player {
+    margin: 2ch;
+    text-align: center;
+  }
+  
