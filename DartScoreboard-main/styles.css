@@ -20,7 +20,9 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin-left: 10ch; 
+    margin-right:10ch;
   }
   
   .score {
@@ -58,5 +60,6 @@ ol {
   .player {
     margin: 2ch;
     text-align: center;
+    margin-left: 14ch;
   }
   
